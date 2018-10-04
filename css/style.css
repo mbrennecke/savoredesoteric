@@ -1,0 +1,159 @@
+body {
+	margin:0;
+	padding:0;
+ }
+
+.title-bar {
+  background: #333;
+  padding: 0.9rem; }
+
+.top-bar {
+  background: #333; 
+  margin:0;
+  padding:0;}
+  .top-bar ul {
+    background: #333; }
+    .top-bar ul li {
+      background: #333; }
+      .top-bar ul li a {
+        color: #fff; }
+
+.menu-text {
+  color: #fff; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  .top-bar .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .top-bar .menu:first-child {
+    border-left: none; }
+
+  .top-bar .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
+.dropdown.menu .submenu {
+  border: none; }
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+  border-color: #fff transparent transparent; }
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fff; }
+
+.js-drilldown-back::before {
+  border-color: transparent #fff transparent transparent; }
+ 
+ .font, .font h2 {
+	 font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+ }
+.fontWeightColor, .fontWeightColor li a{
+	color:#efefef;
+	font-weight:500;
+	font-size:1.5em;
+}
+
+.fontBottom {
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	color:#eee;
+	font-weight: 500;
+}
+
+.fontWeightColorDark li {
+
+}
+.fontWeightColorDark li a{
+	color:#111;
+	font-weight: 500;
+	font-size:1.3em;
+}
+
+#savored{
+	color:#eee;
+	margin-top:0;
+	margin-left:25px;
+}	
+.topicList {
+	list-style:none;
+	
+}
+
+
+		#slogan h4 {
+			font-style: italic;
+			padding:0;
+			margin-bottom: 0;
+			margin-top:0;
+			left: 0;
+			text-align:left;
+		}
+		#slogan h3{
+			padding:0;
+			margin-bottom: 0;
+			left:0;
+			
+		}
+		#slogan {
+			font-family: Garamond, Georgia, serif;
+		
+			bottom:0;
+			margin: 0;
+			padding-bottom: 25px;
+			
+		}
+		#slogan h3 {
+			line-height:80%;
+		}
+		
+		.logo-base {
+			
+			height: auto;
+			margin: 0 auto 0;
+		
+		}
+		
+		#homeContainer {
+			background-image: url("../images/paint2.jpg" );
+			background-repeat:no-repeat;
+			background-size: cover;
+
+
+		}
+		.topMargin {
+			padding-top:100px;
+			padding-right:0;
+		}
+		
+		.right {
+			text-align:right;
+		}
+		.list {
+			list-style-type: none;
+			font-size: 1.2em;
+		}
+		.sites {
+			background-color:rgba(224,224,224,0.6);
+		}
+		.midMargin {
+			padding-top:35px;
+		}
+		.topMidMargin {
+			padding-top:25px;
+			
+		}
+		.bottomTag {
+			padding-top:25px;
+		}
+		#webTag{
+			
+		}
+		#photoTag{
+			display:none;
+		}
+		#metalsTag{
+			display:none;
+		}
+		#miscTag{
+			display:none;
+		}
